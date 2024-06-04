@@ -1,4 +1,6 @@
-# clitor-is-protocol.github.io
+# clitor-is-protocol
+
+keep large objects in small blocks
 
 ## KevaCoin
 
