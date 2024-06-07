@@ -8,7 +8,7 @@ keep large objects in small blocks
 
 * create separated namespace
 * append file basename or md5file as `_KEVA_NS_` value
-* append protocol version as `_CLITOR_IS_` value
+* append software info as `_CLITOR_IS_` value
 * encode file content to base64 string
 * split encoded string to `3072` byte pieces
 * save pieces as indexed record values
