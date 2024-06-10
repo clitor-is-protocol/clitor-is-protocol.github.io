@@ -6,12 +6,12 @@ keep large objects in small blocks
 
 ### Specification
 
-* create separated namespace
-* append file basename or md5file as `_KEVA_NS_` value
-* append software info as `_CLITOR_IS_` value
+* create namespace
+* append filename with extension as `_KEVA_NS_` value
+* append encoder info as `_CLITOR_IS_` value
 * encode file content to base64 string
 * split encoded string to `3072` byte pieces
-* save pieces as indexed record values
+* save pieces as namespace records where `key` is part index and `value` is part data
 
 ### Software
 
